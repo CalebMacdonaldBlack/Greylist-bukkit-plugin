@@ -4,7 +4,7 @@ A Minecraft bukkit plugin
 
 Players with the `Greylist.greylisted` permission will have the following effects:
 * Cannot be damaged by mobs or players
-* Cannot be chased or damaged by mobs
+* Cannot be chased by mobs
 * Cannot interact with anything (destroy/place blocks, open chests/doors etc)
 * No hunger depletion
 * Give infinite regeneration when joining the server
