@@ -7,7 +7,7 @@ Players with the `Greylist.greylisted` permission will have the following effect
 * Cannot be chased by mobs
 * Cannot interact with anything (destroy/place blocks, open chests/doors etc)
 * No hunger depletion
-* Give infinite regeneration when joining the server
+* Infinite regeneration whenever they join
 
 Other  notes:
 * Players without the `Greylist.greylisted` permission will have their infinite regeneration removed when joining the server
