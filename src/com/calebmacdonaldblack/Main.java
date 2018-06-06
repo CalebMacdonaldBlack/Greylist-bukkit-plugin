@@ -31,7 +31,7 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     private boolean isGreyListed(Entity entity) {
-        return entity.hasPermission(String.format("%s.greylisted", this.getDescription().getName()));
+        return entity != null && entity.hasPermission(String.format("%s.greylisted", this.getDescription().getName()));
     }
 
     @EventHandler
